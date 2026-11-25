@@ -51,7 +51,7 @@ function Index() {
       <section id="inicio" className="stripe-bg bg-ink text-ink-foreground">
         <div className="mx-auto max-w-6xl px-4 py-14 md:py-24">
           <p className="inline-flex flex-wrap items-center gap-2 rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-accent">
-            20 años de experiencia en Valencia • +390 clientes nos califican en Google
+            60 AÑOS DE EXPERIENCIA EN VALENCIA • +390 CLIENTES NOS CALIFICAN EN GOOGLE
           </p>
           <h1 className="mt-6 max-w-4xl text-3xl leading-tight sm:text-5xl md:text-6xl">
             El repuesto exacto para tu vehículo, <span className="text-accent">en stock</span> y con entrega inmediata en Valencia.
@@ -149,9 +149,9 @@ function Index() {
       </section>
 
       <section className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 md:grid-cols-[1fr_2fr] md:py-24">
-        <div className="font-display text-8xl leading-none text-primary md:text-9xl">20<span className="block text-2xl text-foreground">años</span></div>
+        <div className="font-display text-8xl leading-none text-primary md:text-9xl">60<span className="block text-2xl text-foreground">años</span></div>
         <div>
-          <h2 className="text-3xl md:text-4xl">20 años resolviendo fallas automotrices en Carabobo</h2>
+          <h2 className="text-3xl md:text-4xl">60 años resolviendo fallas automotrices en Carabobo</h2>
           <p className="mt-4 text-lg text-muted-foreground">En el sector automotriz, comprar barato dos veces sale caro. Durante dos décadas en Repuestos Cacique Guaicaipuro, C.A. nos hemos enfocado en mantener un inventario real, marcas confiables y asesoría honesta en mostrador. Sabemos lo crítico que es tener tu vehículo detenido; por eso combinamos atención ágil por WhatsApp, entrega a domicilio en Valencia y modernidad en métodos de pago como Binance para que resuelvas en minutos.</p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <a href={`tel:${PHONE}`} className={`${btn} bg-primary text-primary-foreground hover:brightness-110`}><Phone className="h-5 w-5" /> Llamar: 0414-4149993</a>

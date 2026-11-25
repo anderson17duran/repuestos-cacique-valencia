@@ -81,7 +81,7 @@ function Index() {
             [PackageCheck, "Stock Real Garantizado", "Lo que buscas, lo tenemos listo para entrega."],
             [Bitcoin, "Pagos Flexibles", "Aceptamos Binance (USDT / Cripto), divisas, transferencias y pago móvil."],
             [Truck, "Delivery en Valencia", "Recibe tu repuesto en tu taller o domicilio sin perder tiempo."],
-            [ShieldCheck, "Respaldo Comprobado", "20 años atendiendo al parque automotor de Carabobo."],
+            [ShieldCheck, "Respaldo Comprobado", "60 años atendiendo al parque automotor de Carabobo."],
           ].map(([Icon, t, d]) => {
             const I = Icon as typeof Star;
             return (
@@ -152,7 +152,7 @@ function Index() {
         <div className="font-display text-8xl leading-none text-primary md:text-9xl">60<span className="block text-2xl text-foreground">años</span></div>
         <div>
           <h2 className="text-3xl md:text-4xl">60 años resolviendo fallas automotrices en Carabobo</h2>
-          <p className="mt-4 text-lg text-muted-foreground">En el sector automotriz, comprar barato dos veces sale caro. Durante dos décadas en Repuestos Cacique Guaicaipuro, C.A. nos hemos enfocado en mantener un inventario real, marcas confiables y asesoría honesta en mostrador. Sabemos lo crítico que es tener tu vehículo detenido; por eso combinamos atención ágil por WhatsApp, entrega a domicilio en Valencia y modernidad en métodos de pago como Binance para que resuelvas en minutos.</p>
+          <p className="mt-4 text-lg text-muted-foreground">En el sector automotriz, comprar barato dos veces sale caro. Durante seis décadas en Repuestos Cacique Guaicaipuro, C.A. nos hemos enfocado en mantener un inventario real, marcas confiables y asesoría honesta en mostrador. Sabemos lo crítico que es tener tu vehículo detenido; por eso combinamos atención ágil por WhatsApp, entrega a domicilio en Valencia y modernidad en métodos de pago como Binance para que resuelvas en minutos.</p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <a href={`tel:${PHONE}`} className={`${btn} bg-primary text-primary-foreground hover:brightness-110`}><Phone className="h-5 w-5" /> Llamar: 0414-4149993</a>
             <a href={wa("Hola Repuestos Cacique Guaicaipuro, vengo de su página web y necesito asesoría técnica para mi vehículo...")} target="_blank" rel="noopener" className={`${btn} border border-primary text-primary hover:bg-primary/5`}>Solicitar asesoría técnica</a>
